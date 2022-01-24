@@ -6,21 +6,33 @@
 ![alt text](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/Messy_data/Asterix.jpeg)
 
 Asterix: 
+- Marc
+- Marc
+- Thiago
 
 
 ![alt text](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/Messy_data/Obelix.png)
 
 Obelix: 
 
+- Lam
+- Josep
+- Angela
+
 
 ![alt text](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/Messy_data/Getafix.jpeg)
 
 Getafix:
+- Agustin
+- Lluis
+- Sergi
 
 
 ![alt text](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/Messy_data/Vital.gif)
 
 Vitalstatistix: 
+- Sian
+- Kofi
 
 
 
