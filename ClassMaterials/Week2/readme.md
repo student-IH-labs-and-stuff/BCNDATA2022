@@ -10,3 +10,6 @@ Day 2
 
 day 3 
 - tableau workbook - filters https://public.tableau.com/app/profile/sianedavies/viz/26Jan_16432015077320/filters
+
+Day 4 
+- tableau workbook - joins, unions, aggregations https://public.tableau.com/app/profile/sianedavies/viz/27Jan/logical-pagesperday
