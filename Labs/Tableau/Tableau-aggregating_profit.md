@@ -18,7 +18,7 @@ Using the data set [global_superstore](https://github.com/student-IH-labs-and-st
  BONUS :  try adding a simple bar chart viz embedded in the tool tip of the map, the chart can be similar to that created in (1) or (2), so that when you hover over a country you can see the profitability in that country over time or product category
 6. Create a highlight table or any other chart type to quickly see the the profit pattern between weeks and days of the week, with profit ratio % (total profit divided by total sales amount) on colour - be careful with your aggregation approach, remember to pre-aggregate! 
 
-BONUS 7. Create a stacked 100% bar view showing the % of transactions which were profitable within each category and subcategory. Hint: you will need a table calculation at the cell level, but you will want to use a non aggregated calculation for profit> 0 so that the logic is applied at the row level. This should be a stacked 100% bar chart (each bar is 100% of the sales for that sub category)
+BONUS 6. Create a stacked 100% bar view showing the % of transactions which were profitable within each category and subcategory. Hint: you will need a table calculation at the cell level, but you will want to use a non aggregated calculation for profit> 0 so that the logic is applied at the row level. This should be a stacked 100% bar chart (each bar is 100% of the sales for that sub category)
 
 
 ----- proprietary content of SED Training Ltd-------
