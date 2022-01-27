@@ -10,8 +10,8 @@ Using the data set [global_superstore](https://github.com/student-IH-labs-and-st
 (Ensure each chart has the appropriate fit, chart/mark type, title, axis labels and colour scheme.)
 
 
-1. Overall Profitability over time (order date) by market (on colour) - as a line chart, using Year, Quarter data values (green fields)
-2. Overall Profitability by Sub category - with Category, Date, Market filters, and add profit on to colour 
+1. Overall Profitability over time (order date) by market (on colour) - as a line chart, using Year, Quarter data values (green fields). Add a reference line (from the analytics panel) which shows the average profit as a dotted line through the time series.  You can experiment with shading below or above the average line, the label of the average line, anything else to make it visually clear which quarter is over the average in terms of profit. 
+2. Overall Profitability by Sub category - with Category, Date, Market filters, and add profit on to colour. Add a reference line (from the analytics panel) which shows the average profit line by each category - this means that each sub category can be compared to the rest in that category. 
 3. Average Profit per unit (using a calculation of profit divided by quantity) with a filter for Category and Subcategory (please link your filters using only relevant values)
 4. Profitability by Country (as a filled map) with a market filter but also with a clever % of total label created from an LOD: 
  By using a FIXED LOD on the text label, we hope to see the global contribution made to the company profit from each country- ie how much of the profit does Germany account for, globally  - in this way the % of total profit label is unaffected by ANY filters when applied). 
