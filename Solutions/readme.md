@@ -4,9 +4,9 @@
 I am turning this into an example readme. 
 
 ### contents: 
-* [Introduction]
-* [Contents]
-* [Conclusion]
+* [Introduction](#introduction)
+* [Contents](#contents)
+* [Conclusion](#conclusion)
 
 
 
