@@ -5,8 +5,9 @@ I am turning this into an example readme.
 
 ### contents: 
 * [Introduction](#introduction)
-* [Contents](#contents)
+* [Contents](#contents-in-the-middle)
 * [Conclusion](#conclusion)
+* [Cheese Board](#a-cheese-board)
 
 
 
@@ -14,7 +15,7 @@ I am turning this into an example readme.
 
 this is an example readme which shows how you can create a navigable TOC 
 
-### Contents 
+### Contents in the middle 
 
 In this section we learn about the concept of content
 
@@ -28,3 +29,15 @@ John Robins says he lives and breathes content
 ## Conclusion 
 
 in conclusion, it is very important to stay consistent with your readme markdown 
+
+
+
+
+
+
+
+
+
+## A cheese board 
+
+because why not have a cheese board at the end 
