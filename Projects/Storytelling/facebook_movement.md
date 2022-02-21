@@ -3,11 +3,11 @@
 
 ### Method
 
-Work collaboratively in groups of 2-4 
+Work collaboratively in groups of 2-3
 
 ### Time
 
-You have until **!ASK ANGELA for the time!** pm today to get the data, analyse it, and develop a story around the data which can be presented back to the classroom
+You have until **!ASK KOFI for the time!** pm today to get the data, analyse it, and develop a story around the data which can be presented back to the classroom
 
 ### Tools 
 
@@ -15,7 +15,7 @@ Tableau (with extra support from Python as needed)
 
 ### Introduction
 
-There must have been times during the past 18 months that you have felt like you were living in a dystopian novel or had accidentally auditioned for a surrealist play, where faceless government agencies and an giant spiky virus were making decisions about your personal/ professional life and your freedom of movement. 
+There must have been times during the past 24 months that you have felt like you were living in a dystopian novel or had accidentally auditioned for a surrealist play, where faceless government agencies and an giant spiky virus were making decisions about your personal/ professional life and your freedom of movement. 
 
 It would be silly for us to complete a data analyst course without giving some attention to covid-19, but we will approach it as analysts - start with raw data, then add in our emotions and personal experience to shape it into a data story. You will be working with a database that facebook has gathered and shared for public non-commercial use - HINT : when you can, give some thought to the reliability and quality of the data source, and what portion of the population is going to be unavoidably excluded from this data / ie whats the bias..... Despite my antipathy towards facebook (cough, I mean 'Meta'), its the best raw data source we found to start you off on this project. Of course, the internet is full of a thousand other covid related data sources - but be careful not to go too far down the alice in wonderland rabbit holes and forget the time!
 
