@@ -10,6 +10,10 @@ In this first lab, after setting yourself up to use the DataBricks community edi
 
 
 1) sign up for the [community edition](https://databricks.com/try-databricks)
+If you find yourself putting in billing information then you are NOT in the community edition 
+https://databricks.com/product/faq/community-edition 
+
+There are limitations to the community edition, including no production grade facilities. 
 
 2) complete the quickstart tutorial
 + create a cluster called 'Quickstart'
@@ -26,7 +30,7 @@ In this first lab, after setting yourself up to use the DataBricks community edi
 
 HINT : https://databricks.com/blog/2019/04/24/koalas-easy-transition-from-pandas-to-apache-spark.html
 
-6) Think about how you would structure this notebook differently if you were to share it with colleagues via databricks to run. 
+6) Think about how you would structure this notebook differently if you were to share it with colleagues via databricks to run and learn from. 
 
 7) Now, loan and run through the cells for this notebook https://databricks.com/notebooks/gallery/SparkSQLAndUDFs.html to explore and understand streaming data 
 
