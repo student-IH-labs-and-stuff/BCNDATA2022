@@ -1,8 +1,8 @@
 
 
-# Lab | DataBricks 
+# Lab | DataBricks - intro 
 
-after setting yourself up on the community edition you will complete some activities.  
+In this first lab, after setting yourself up to use the DataBricks community edition you will complete some activities to get comfortable with the interface and make some notes on pre prepared notebooks that have been shared with you for import.
 
 
 
@@ -15,21 +15,22 @@ after setting yourself up on the community edition you will complete some activi
 + create a cluster called 'Quickstart'
 + link the notebook to the cluster and run 
 + create the table diamonds, manipulate the data and visualise a summary (SQL query)
-+ create a pandas dataframe with Python (magic command needed) and visualise, following the notebook through and reviewing the tables /visuals 
-+ try exporting the data from either SQL or Python to csv locally 
++ create a pandas dataframe with Python for diamonds (magic command needed) and visualise, following the notebook through and reviewing both the tables and data visuals 
++ try exporting the resulting data from either SQL or Python to csv files locally 
 
 3) from the home menu, import a new data source (csv file 'cars_EV.csv' ) from your local machine to **create a table with UI** and use your QuickStart cluster to preview the table. In specify table attributes, check the columns, and correct the data types as needed, set the first row as header. Then create the table.
 
-4)  Create a new SQL notebook to run a simple sql select query against the data source cars_EV.csv you have imported
+4)  Create a new SQL notebook to run a simple sql select query against the data source cars_EV.csv you have imported. This can be any SQL query you like. 
 
-5) from Workspace, import a pre prepared notebook from this url https://databricks.com/notebooks/gallery/PandasToKoalasTutorial.html and follow the notebook steps, running each cell. 
+5) from Workspace, import a pre prepared notebook from this url https://databricks.com/notebooks/gallery/PandasToKoalasTutorial.html and follow the notebook steps, running each cell in turn or all cells. Each time you run or review the output of a cell in this notebook, you can pause to annotate on how the koalas code differs from the pandas commands you have seen before, or alternatively annotate any comments to reflect what is similar. 
 
-6) optional - do the same for this notebook https://databricks.com/notebooks/gallery/SparkSQLAndUDFs.html to explore and understand streaming data - we can discuss in class 
+HINT : https://databricks.com/blog/2019/04/24/koalas-easy-transition-from-pandas-to-apache-spark.html
 
-7) optional - explore how to ingest image and audio files to the workspace  
+6) Think about how you would structure this notebook differently if you were to share it with colleagues via databricks to run. 
 
-8) optional - basket analysis  https://databricks.com/notebooks/gallery/MarketBasket.html
-- we will talk through this briefly in class , the data is actually now held on kaggle https://www.kaggle.com/c/instacart-market-basket-analysis/data
+7) Now, loan and run through the cells for this notebook https://databricks.com/notebooks/gallery/SparkSQLAndUDFs.html to explore and understand streaming data 
+
+8) Make some notes about any new concepts and terms you see in this notebook, because in tomorrow's lesson we will discuss as a class what we saw that was familiar and unfamiliar. 
 
 
 
