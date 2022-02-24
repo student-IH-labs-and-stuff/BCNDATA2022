@@ -4,6 +4,8 @@
 
 In this first lab, after setting yourself up to use the DataBricks community edition you will complete some activities to get comfortable with the interface and make some notes on pre prepared notebooks that have been shared with you for import.
 
+You will find documentation about databricks in this lab folder 
+
 
 
 ## steps 
@@ -15,7 +17,7 @@ https://databricks.com/product/faq/community-edition
 
 There are limitations to the community edition, including no production grade facilities. 
 
-2) complete the quickstart tutorial
+2) complete the quickstart tutorial https://databricks.com/notebooks/gcp-qs-notebook.html
 + create a cluster called 'Quickstart'
 + link the notebook to the cluster and run 
 + create the table diamonds, manipulate the data and visualise a summary (SQL query)
