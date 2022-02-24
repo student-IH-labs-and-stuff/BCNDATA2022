@@ -11,15 +11,15 @@ In this second lab we will work with data science methods on small and big data 
 
 1) ensure you have a running cluster - you will possibly have to recreate your cluster from yesterday if there is no active cluster. On the community edition clusters are deleted if unused for a period of time. 
 
-2) next import your data for the first data science method - small data - this is going to be the stroke data set we used on previous lessons. You will find this in the class materials on GitHub. 
+2) next import your data for your first data science approach - small data - this is going to be the Strokes data set we used on previous lessons. You will find this in the class materials on GitHub. 
 It is important when creating and working with this data table that you do the following steps : 
 
-- create table in a notebook - table is populated from the strokes_data.csv and stored under a DFBS target directory /strokes/ so it is easy for you to find in the file store
-- in the first python cell (this will be first if the notebook is python!) you will need to change one parameter - headers are in first row = true 
-- name your notebook eg. strokes_importcsv to differentiate this notebook from others that you may later upload
+- create Table, Preview in the UI and open table in a Notebook
+- the data table stored is populated from the strokes_data.csv and should be stored under a DFBS target directory '/strokes/' so it is easy for you to locate in the file store
+- set the headers from the first row - you can specify that at creation point, or in the first python cell of the notebook(this will be first if the notebook is default python!) or when previewing the table through the UI. Hint: change one parameter/ headers are in first row = true 
+- name your notebook eg. strokes_import_csv to differentiate this notebook from others that you may later upload
 
-
-3) run your ML model - random forest 
+3) run your ML model - 
 
 4) Import the existing Jupiter notebook you had for this data source (hint : we worked on this in class during week 4 - to understand data imbalance) 
 
