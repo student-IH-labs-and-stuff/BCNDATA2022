@@ -33,8 +33,10 @@ In this second lab we will work with data science methods on small and big data 
 1) our goal is to see how to work with multiple models and experiments inside databricks. This approach utilises a new tool to us , called [MLFLow](https://www.mlflow.org/)- extra documentation [here](https://docs.databricks.com/applications/mlflow/index.html). As you work through this challenge, consider how this set up differs to the way you worked on your iterative models during the mid bootcamp project.  
 2) Here is the link to the [model training quickstart notebook](https://docs.databricks.com/applications/machine-learning/train-model/ml-quickstart.html), which you will need to import 
 3) you will require a ML cluster (you can terminate the existing cluster and create a new one if needed. On the community edition you can have multiple clusters but only one running) - go to the Compute menu to manage this. 
-4) You will need to obtain the data from the UCI ML Repository and then alter the paths in the notebook
-5) Run through the notebook - you will be training a gradient boost model to predict wine quality, with various experiments (iterations) with hyperparameter tuning - then using ML flow to find the best model. 
+4) You will need to obtain the data from the UCI ML Repository or Kaggle, upload it to the databricks file storage and then alter the paths in your notebook
+[kaggle red wine](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009)
+[kaggle white wine](https://www.kaggle.com/piyushagni5/white-wine-quality)
+6) Run through the notebook - you will be training a gradient boost model to predict wine quality, with various experiments (iterations) with hyperparameter tuning - then using ML flow to find the best model. 
 
 
 ## part 3 - deploy to production - for this challenge you can be in any databricks mode
