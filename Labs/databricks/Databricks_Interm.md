@@ -9,7 +9,7 @@ In this second lab we will work with data science methods on small and big data 
 ## steps 
 
 
-1) ensure you have a running cluster - you will possibly have to recreate your cluster from yesterday if there is no active cluster. On the community edition clusters are deleted if unused for a period of time. 
+1) ensure you have a running cluster - you will possibly have to recreate your cluster from yesterday if there is no active cluster or restart it. On the community edition clusters are terminated if unused for a period of time. 
 
 ---------
 ### Part 1 - quite big data - for this challenge you should be in the Data Science and Engineering mode.
