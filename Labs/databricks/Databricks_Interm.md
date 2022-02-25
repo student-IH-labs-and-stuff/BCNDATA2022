@@ -11,7 +11,27 @@ In this second lab we will work with data science methods on small and big data 
 
 1) ensure you have a running cluster - you will possibly have to recreate your cluster from yesterday if there is no active cluster. On the community edition clusters are deleted if unused for a period of time. 
 
-2) next import your data for your first data science approach - small data - this is going to be the Strokes data set we used on previous lessons. You will find this in the class materials on GitHub. 
+---------
+### Part 1 - quite big data - for this challenge you should be in the Data Science and Engineering mode.
+
+2) you already should have uploaded your 'big' data source, the instacart market basket analysis data collection. Here is a description on Kaggle which may be helpful https://www.kaggle.com/c/instacart-market-basket-analysis/overview. As you can see the data is large and broken over multiple tables, so working with it, analysing and then using data science methods to predict the basket is going to involve data engineering. 
+3) next, load the notebook from here https://databricks.com/notebooks/gallery/MarketBasket.html
+4) to run the notebook you will need to change the data locations - pointing at the DBFS storage / folders you have saved the files to. 
+5) following the notebook cells, you will see the following steps which are familiar to you as your end to end data science flow, but with more focus on engineering the data into a different shape when needed, for which you will see pyspark sql is used  : 
+- ingest data 
+- review and explore, visualise 
+- reshape the data as needed ( in this case by individual basket so we know which food items each order included)
+- modeling 
+6) the models used here are going to be unfamiliar to you because they are for frequency pattern mining, rather than classification or regression, which we have worked with. Note that the scala.api is used to call the models and we switch language again to [scala](https://www.scala-lang.org/) and choose the model FP growth. 
+7) the result of our basket analysis is that we can explore the most frequently purchased items and predict which items will be purchased alongside others (note the degree of confidence in the right column of the last output cell) 
+
+
+-------------
+
+## part 2 - quite small data but using ML flow - for this challenge you should be in Machine Learning mode
+
+2) our goal is to work with multiple models inside databricks. As an example I am giving you two jupyter notebooks on the Strokes data which we used in week 4. One 
+3) next import your data for your first data science approach - small data - this is going to be the Strokes data set we used on previous lessons. You will find this in the class materials on GitHub. 
 It is important when creating and working with this data table that you do the following steps : 
 
 - create Table, Preview in the UI and open table in a Notebook
