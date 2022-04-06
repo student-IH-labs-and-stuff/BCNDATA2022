@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head> Geography</head>
+<body>
+
+<div class="city">
+  <h2>London</h2>
+  <p>London is the most popular tourist destination in the world.</p>
+</div>
+
+<div class="city">
+  <h2>Paris</h2>
+  <p>Paris was originally a Roman City called Lutetia.</p>
+</div>
+
+<div class="country">
+  <h2>Spain</h2>
+  <p>Spain produces 43,8% of all the world's Olive Oil.</p>
+</div>
+
+</body>
+</html>
