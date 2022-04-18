@@ -13,22 +13,22 @@ Asterix:
 ![alt text](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/Messy_data/Obelix.png)
 
 Obelix: 
-**Lucas
-**Andy
+- Lucas
+- Andy
 
 
 
 ![alt text](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/Messy_data/Getafix.jpeg)
 
 Getafix:
-**Miguel
-**Cath
+- Miguel
+- Cath
 
 ![alt text](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/Messy_data/Vital.gif)
 
 Vitalstatistix: 
-**Federica
-**Pau
+- Federica
+- Pau
 
 
 
