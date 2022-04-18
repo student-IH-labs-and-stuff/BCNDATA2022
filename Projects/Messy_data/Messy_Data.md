@@ -6,8 +6,8 @@
 ![alt text](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/Messy_data/Asterix.jpeg)
 
 Asterix: 
-**Roger**
-**John**
+- Roger
+- John
 
 
 ![alt text](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/Messy_data/Obelix.png)
