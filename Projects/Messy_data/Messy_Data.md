@@ -43,8 +43,8 @@ the deadline for finishing this project is Friday; I will give you class time to
 You will be working with a data set hosted on Kaggle that has been scraped for you from the web about US data science hires in 2018 (ie pre-covid!). The author wanted to look at some specific questions :
 
 #### Who gets hired? What kind of talent do employers want when they are hiring a data scientist?
-#### Which location has the most opportunities?
-#### What skills, tools, degrees or majors do employers want the most for data scientists?
+#### Which location has the most data analyst opportunities?
+#### What skills, tools, degrees or majors do employers want the most for data engineers?
 
 I think you can do more for our class with this data set, to summarise the insights and use the process of data wrangling. The data is not easy to work with at the moment! Your main challenge will be to use Python to clean, wrangle and generally reshape the data to make it more straightforward to analyse- to visualise what you find in the data you can either export it to a csv, and use excel to chart it, or you can explore the capabilities of Python or Tableau to plot the data.  
 
