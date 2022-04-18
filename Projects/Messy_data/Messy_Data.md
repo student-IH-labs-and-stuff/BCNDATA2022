@@ -2,13 +2,14 @@
 
 # Working with Messy Data 
 
-## project group assignments randomly assigned
+## project group assignments
 ![alt text](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/Messy_data/Asterix.jpeg)
 
 Asterix: 
 - Roger
 - John
 
+------
 
 ![alt text](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/Messy_data/Obelix.png)
 
@@ -16,7 +17,7 @@ Obelix:
 - Lucas
 - Andy
 
-
+------
 
 ![alt text](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/Messy_data/Getafix.jpeg)
 
@@ -24,12 +25,15 @@ Getafix:
 - Miguel
 - Cath
 
+-----
+
 ![alt text](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/Messy_data/Vital.gif)
 
 Vitalstatistix: 
 - Federica
 - Pau
 
+-----
 
 
 ## Task : clean the data - summarise your findings in a 'one pager'
