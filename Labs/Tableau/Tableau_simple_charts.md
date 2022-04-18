@@ -38,7 +38,7 @@ Bonus: How many award **motivations** can we find in our data set that cite 'ana
   
  ## Challenge 3 
   
- Using the data set 500_YouTube_Games.xlsx and Tableau Desktop or Tableau Public, create the following charts to visualise and answer the following questions: 
+ Using the data set [500_YouTube_Games.xlsx](500_YouTube_Games.xlsx) and Tableau Desktop or Tableau Public, create the following charts to visualise and answer the following questions: 
   
  1) is there a linear relationship between the number of subscribers and the number of views ? 
  2) is there a linear relationship between the number of subscribers and the rank of the user? 
