@@ -7,7 +7,7 @@ Reminder : we are looking for individual views/charts for each task, not dashboa
 ## Challenge 1 
 
 Using the data set [profitability.xlsx](profitability.xlsx) 
-and Tableau Desktop or Tableau Public, create the following charts to visualise and answer the following simple questions: 
+and Tableau Desktop or Tableau Public, create the following charts to visualise and answer the following questions: 
 
 (Ensure each chart has the appropriate fit, mark type, title, axis labels and legend.) 
 
@@ -23,7 +23,7 @@ BONUS : Add a url action on the menu select to go from any of these charts to ht
 ## Challenge 2
 
 Using the data set [laureate.csv](laureate.csv) 
-and Tableau Desktop or Tableau Public, create the following charts to visualise and answer the following simple questions: 
+and Tableau Desktop or Tableau Public, create the following charts to visualise and answer the following questions: 
 
 (Ensure each chart has the appropriate fit, mark type, title, axis labels/legend or map layers.) 
 
@@ -34,3 +34,13 @@ and Tableau Desktop or Tableau Public, create the following charts to visualise 
   
 Bonus: How many award **motivations** can we find in our data set that cite 'analysis' work? (create a calculated field, using the substring 'analy' with CONTAINS to look for either analysis or analyses, analyze) and use this field as a dimension on your chart. Suggestion -use a bar chart, and dont worry too much about the NULL values found in Motivation. 
 
+------
+  
+ ## Challenge 3 
+  
+ Using the data set 500_YouTube_Games.xlsx and Tableau Desktop or Tableau Public, create the following charts to visualise and answer the following questions: 
+  
+ 1) is there a linear relationship between the number of subscribers and the number of views ? 
+ 2) is there a linear relationship between the number of subscribers and the rank of the user? 
+ 3) are there any users who have a lower rating than you might expect, given their #views or #subscribers?
+  
