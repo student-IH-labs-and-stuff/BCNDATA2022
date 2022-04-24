@@ -15,7 +15,7 @@ follow the steps and concepts you have learnt in class to:
 + combine your views in an interactive dashboard, in a visually pleasing way. Think about how the views link together through filters and actions. The idea is to allow the product team to better understand the behaviour of their customers by exploring their data. 
 
 
-#### Each calculation and step below has a brief description of what to do, but ask the teaching team if you need hints and help 
+#### Each calculation and step below has a brief description of what to do, and there are [some screenshots here to help you along](https://github.com/student-IH-labs-and-stuff/BCNDATA2022/tree/main/Labs/Tableau/RFMscreenshots), but do ask the teaching team if you need further hints
 
 ### Steps 
 ----
@@ -42,7 +42,7 @@ follow the steps and concepts you have learnt in class to:
 
 ---- 
 
-When you are ready, save your workbook and dashboard, **with the separate views showing as tabs** to Tableau public and submit your lab via the student portal (tableau public url)
+When you are ready, save your workbook and dashboard, **with the separate views showing as tabs** to Tableau public and submit your lab via the student portal (using the tableau public url)
 
 
 
