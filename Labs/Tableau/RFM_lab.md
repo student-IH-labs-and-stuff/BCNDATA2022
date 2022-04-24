@@ -42,7 +42,7 @@ follow the steps and concepts you have learnt in class to:
 
 ---- 
 
-When you are ready, save your workbook and dashboard, **with the separate views showing as tabs** to Tableau public and submit your lab via the student portal (using the tableau public url)
+When you are ready, save your workbook and dashboard, **with the separate views showing as tabs** to Tableau public and submit your lab via the student portal (using the tableau public url to the dashboard)
 
 
 
