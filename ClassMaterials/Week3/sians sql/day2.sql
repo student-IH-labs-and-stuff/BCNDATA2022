@@ -57,8 +57,44 @@ order by total_revenue DESC;
 SET GLOBAL sql_mode = 'ONLY_FULL_GROUP_BY';
 #SELECT @@GLOBAL.sql_mode;
 
+use bank;
+# window functions - aggregation - but you dont want a summary table 
+select district_id, count(account_id) from account
+group by district_id;
+
+select * , round(avg(amount)OVER(),2) as avgamount
+from loan
+where duration = 12;
+
+#partition by duration ? 
+select * , round(avg(amount)OVER(partition by status,duration),0) 
+as avgbystatusanddur
+from loan;
 
 
+select account_id,
+date, 
+amount,
+round(sum(amount) OVER(partition by account_id order by date),0)
+as running_sum
+from trans
+where account_id in (1,2,3);
 
-
-
+-- activity 
+use sakila;
+#Create a query to show for each rating the average movie length 
+#(displayed as Mean_length). 
+#Sort the results in descending order of Mean_length.
+select rating, avg(length) as mean_length from film
+group by rating
+order by mean_length DESC ;
+#Create a query to show for each movie the following data (in this order):
+#rating#title#length
+#mean length by rating displayed as Mean_length_by_rating
+#ranking displayed as Ranking 
+#(showing from the longest to the shortest movie within the same rating).
+#This means sorting the results by rating and descending order of movie length.
+select rating,title,length 
+,avg(length) OVER(partition by rating) as mean_length_rat
+,dense_rank() OVER(partition by rating order by length DESC) as ranking
+from film;
