@@ -170,6 +170,109 @@ Select * from books
 right join authors 
 using(author_id);
 
+# CTES - common table expressions 
+# subqueries 
+# views 
+# more window fx - optional 
+
+# create a view which combines clients with their loans, loan status 
+use bank;
+CREATE OR REPLACE VIEW clients_loans_combo AS 
+SELECT c.client_id, c.district_id, l.loan_id, l.status,
+l.amount, l.duration, l.payments, l.date as loan_date
+from client c
+join disp dp using(client_id)
+join account a using(account_id)
+join loan l using(account_id) 
+where dp.type = 'OWNER'; 
+
+# SUBQUERY = a query inside a query 
+-- step 2 outer query
+-- step 1 (inner query) - check it 
+
+-- eg which loans are bigger than average 
+select * from loan where amount > 
+(select avg(amount) from loan)
+;
+-- one value (=>), a column of values (IN) , a table of values (subquery needs an alias)
+-- example of table in subquery
+#select s1.firstcolumn from
+#(select from ....) s1
+
+# activity 
+#Find out the average of the number of transactions by account.
+#option 1 - create view then query view 
+create view acctrans as 
+select account_id, count(trans_id) as transact from trans
+group by account_id;
+select avg(transact) from acctrans; #if i have created a view
+
+#option 2 create subquery 
+select ceiling(avg(transact)) as avg_trans_overall
+from 
+(select account_id, count(trans_id) as transact
+from trans group by account_id) as s;
+
+#Get a list of accounts from Central Bohemia using a subquery.
+#Rewrite the previous as a join query.
+select account_id from account where district_id in
+(select A1 from district where A3 = 'central Bohemia');
+
+select account_id from account
+join district 
+on account.district_id=district.A1
+where A3 = 'central Bohemia'; 
+
+# CTE's - we want to join x + y but x does not exist 
+-- transactions table - get the total amount for each account and any acc info
+-- then draw on that table to get information 
+-- use that table to join to another table 
+
+
+WITH cte_trans as 
+(SELECT .... 
+) 
+SELECT ct.field , ct.field, ct.field 
+from cte_trans as ct;
+
+-- get the biggest and smallest trans 
+-- with trans id for those transactions (roger question)
+
+select max(amount), min(amount), trans_id from trans
+where amount <>0
+group by trans_id;
+
+
+ WITH B as (Select trans_id, amount, row_number() OVER(order by amount DESC) as rn1,
+ row_number() OVER(order by amount) as rn2
+from trans
+where amount <>0
+)
+select BMin.amount as MinAmount,
+       BMin.trans_id as MinTransid,
+       BMax.amount as MaxAmount,
+       BMax.trans_id as MaxTransid
+from B as BMin
+cross join B as BMax
+where BMin.rn1 = 1 and BMax.rn2 = 1;
+
+
+with cte_loan as ( select * from loan) 
+select loan_id from cte_loan
+where status = 'B';
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
