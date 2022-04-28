@@ -83,12 +83,13 @@ GROUP BY A3;
 #Extend the query below and list district_name, client_id, 
 # and account_id for those clients who are the owner of the account. 
 #Order the results by district_name:
+-- original 
 select * from bank.disp as d
 join bank.client as c
 on d.client_id = c.client_id
 join bank.district as da
 on da.A1 = c.district_id;
-
+-- new - add owner, specify fields, and order by 
 select da.A2 as districtname,c.client_id, d.account_id 
 from bank.disp d
 join bank.client c USING(client_id)
