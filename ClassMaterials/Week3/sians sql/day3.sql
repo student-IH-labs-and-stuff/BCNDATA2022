@@ -91,21 +91,25 @@ join bank.district as da
 on da.A1 = c.district_id;
 -- new - add owner, specify fields, and order by 
 select da.A2 as districtname,c.client_id, d.account_id 
-from bank.disp d
-join bank.client c USING(client_id)
-join bank.district da on c.district_id=da.A1
+from disp d
+join client c USING(client_id)
+join district da on c.district_id=da.A1
 WHERE d.type='OWNER'
 ORDER BY da.A2;
 
-
-
-
-
-
-
-
-
-# get the biggest and smallest trans with trans id 
+# get the biggest and smallest trans with trans id (roger question)
+ WITH B as (Select trans_id, amount, row_number() OVER(order by amount DESC) as rn1,
+ row_number() OVER(order by amount) as rn2 
+from trans 
+where amount <>0
+)
+select BMin.amount as MinAmount,
+       BMin.trans_id as MinTransid,
+       BMax.amount as MaxAmount,
+       BMax.trans_id as MaxTransid
+from B as BMin
+cross join B as BMax
+where BMin.rn1 = 1 and BMax.rn2 = 1;
 
 
 
