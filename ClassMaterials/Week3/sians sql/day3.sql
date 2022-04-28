@@ -226,14 +226,14 @@ where A3 = 'central Bohemia';
 # CTE's - we want to join x + y but x does not exist 
 -- transactions table - get the total amount for each account and any acc info
 -- then draw on that table to get information 
--- use that table to join to another table 
+-- or use that table to join to another table 
+-- or join that table to itself (cross join)
 
-
-WITH cte_trans as 
-(SELECT .... 
-) 
-SELECT ct.field , ct.field, ct.field 
-from cte_trans as ct;
+#WITH cte_trans AS
+#(SELECT .... 
+#) 
+#SELECT ct.field , ct.field, ct.field 
+#from cte_trans as ct;
 
 -- get the biggest and smallest trans 
 -- with trans id for those transactions (roger question)
@@ -242,7 +242,7 @@ select max(amount), min(amount), trans_id from trans
 where amount <>0
 group by trans_id;
 
-
+#example cte complex
  WITH B as (Select trans_id, amount, row_number() OVER(order by amount DESC) as rn1,
  row_number() OVER(order by amount) as rn2
 from trans
@@ -256,7 +256,7 @@ from B as BMin
 cross join B as BMax
 where BMin.rn1 = 1 and BMax.rn2 = 1;
 
-
+#example basic concept 
 with cte_loan as ( select * from loan) 
 select loan_id from cte_loan
 where status = 'B';
