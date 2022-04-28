@@ -110,23 +110,3 @@ select BMin.amount as MinAmount,
 from B as BMin
 cross join B as BMax
 where BMin.rn1 = 1 and BMax.rn2 = 1;
-
-
-
- 
-
-
-
-
-
-
-
-SELECT d.A2 as DistrictName, LEFT(a.date,2) as Year,
-date_format(date,'%Y') as Year2,
-COUNT(distinct a.account_id) as AccountsOpened
-FROM DISTRICT d
-JOIN account a
-ON d.A1=a.district_id
-GROUP BY d.A2, LEFT(a.date,2), date_format(date,'%Y')
-order by d.A2, LEFT(a.date,2) DESC;
-
