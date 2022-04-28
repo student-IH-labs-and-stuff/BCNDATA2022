@@ -110,3 +110,84 @@ select BMin.amount as MinAmount,
 from B as BMin
 cross join B as BMax
 where BMin.rn1 = 1 and BMax.rn2 = 1;
+
+
+
+
+
+
+
+
+
+
+
+-- DDL(definition) and DML(manipulate)
+# CREATE ALTER DROP TRUNCATE RENAME  UPDATE
+
+DROP DATABASE booksauthors;
+CREATE DATABASE booksauthors;
+use booksauthors;
+
+DROP table IF EXISTS authors;
+CREATE table authors
+(
+author_id INT AUTO_INCREMENT NOT NULL,
+authorname VARCHAR(30) DEFAULT NULL,
+country VARCHAR(30) DEFAULT NULL,
+PRIMARY KEY (author_id)
+);
+
+DROP table IF EXISTS books;
+CREATE table books 
+(
+book_id INT AUTO_INCREMENT NOT NULL,
+author_id INT NOT NULL,
+bookname VARCHAR(50) DEFAULT NULL, 
+PRIMARY KEY (book_id),
+KEY idx_fk_author_id(author_id),
+CONSTRAINT fk_author_id FOREIGN KEY (author_id)
+REFERENCES authors(author_id) ON DELETE RESTRICT ON UPDATE CASCADE
+);
+
+-- populate with data - first authors 
+INSERT INTO authors (authorname,country)
+VALUES('Hans Rosling', 'Sweden'),('C Craido Perez','Britain'),
+('Malcolm Gladwell', 'USA'), ('D Spiegelhalter','Britain'), 
+('D Mccandless','Britain'), ('D Trump', 'USA');
+
+# UPDATE authors set country='UK' where author_id in(2,4,5)
+# if needed to make a change 
+
+# INSERT INTO authors()... 
+
+-- populate with data - now books 
+INSERT INTO books (bookname,author_id)
+VALUES('Factfulness',1),('Invisible Women',2),('Outliers',3),('Blink',3),
+('the art of statistics',4),('Knowledge is beautiful',5),
+('Information is beautiful',5);
+
+Select * from books 
+right join authors 
+using(author_id);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
