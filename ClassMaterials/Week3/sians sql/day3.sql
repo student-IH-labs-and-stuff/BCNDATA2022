@@ -260,37 +260,3 @@ where BMin.rn1 = 1 and BMax.rn2 = 1;
 with cte_loan as ( select * from loan) 
 select loan_id from cte_loan
 where status = 'B';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
