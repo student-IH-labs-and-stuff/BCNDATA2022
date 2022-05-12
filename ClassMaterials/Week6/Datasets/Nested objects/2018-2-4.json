@@ -1,0 +1,239 @@
+[
+    {
+        "12 Strong": {
+            "Genre": "Action",
+            "Gross": "$1,465,000",
+            "IMDB Metascore": "54",
+            "Popcorn Score": 72,
+            "Rating": "R",
+            "Tomato Score": 54
+        },
+        "A Ciambra": {
+            "Genre": "Drama",
+            "Gross": "unknown",
+            "IMDB Metascore": "70",
+            "Popcorn Score": "unknown",
+            "Rating": "unrated",
+            "Tomato Score": "unkown"
+        },
+        "All The Money In The World": {
+            "popcornscore": 72,
+            "rating": "R",
+            "tomatoscore": 76
+        },
+        "Along With The Gods: The Two Worlds": {
+            "popcornscore": 90,
+            "rating": "NR",
+            "tomatoscore": 50
+        },
+        "Bilal: A New Breed Of Hero": {
+            "Genre": "Animation",
+            "Gross": "unknown",
+            "IMDB Metascore": "52",
+            "Popcorn Score": "unknown",
+            "Rating": "unrated",
+            "Tomato Score": "unkown"
+        },
+        "Call Me By Your Name": {
+            "popcornscore": 87,
+            "rating": "R",
+            "tomatoscore": 96
+        },
+        "Condorito: La Pel\u00edcula": {
+            "popcornscore": 59,
+            "rating": "PG",
+            "tomatoscore": 40
+        },
+        "Darkest Hour": {
+            "popcornscore": 84,
+            "rating": "PG13",
+            "tomatoscore": 86
+        },
+        "Den Of Thieves": {
+            "Genre": "Action",
+            "Gross": "$1,430,000",
+            "IMDB Metascore": "50",
+            "Popcorn Score": 71,
+            "Rating": "R",
+            "Tomato Score": 40
+        },
+        "Downsizing": {
+            "popcornscore": 24,
+            "rating": "R",
+            "tomatoscore": 51
+        },
+        "Father Figures": {
+            "popcornscore": 38,
+            "rating": "R",
+            "tomatoscore": 26
+        },
+        "Film Stars Don'T Die In Liverpool": {
+            "popcornscore": 70,
+            "rating": "R",
+            "tomatoscore": 78
+        },
+        "Forever My Girl": {
+            "Genre": "Drama",
+            "Gross": "$730,000",
+            "IMDB Metascore": "36",
+            "Popcorn Score": 91,
+            "Rating": "PG",
+            "Tomato Score": 21
+        },
+        "Happy End": {
+            "popcornscore": 60,
+            "rating": "R",
+            "tomatoscore": 69
+        },
+        "Hostiles": {
+            "popcornscore": 71,
+            "rating": "R",
+            "tomatoscore": 72
+        },
+        "I, Tonya": {
+            "popcornscore": 89,
+            "rating": "R",
+            "tomatoscore": 90
+        },
+        "In The Fade (Aus Dem Nichts)": {
+            "popcornscore": 60,
+            "rating": "R",
+            "tomatoscore": 72
+        },
+        "Insidious: The Last Key": {
+            "Genre": "Horror",
+            "Gross": "$456,000",
+            "IMDB Metascore": "49",
+            "Popcorn Score": 51,
+            "Rating": "PG13",
+            "Tomato Score": 31
+        },
+        "Jumanji: Welcome To The Jungle": {
+            "Genre": "Action",
+            "Gross": "$2,865,000",
+            "IMDB Metascore": "58",
+            "Popcorn Score": 90,
+            "Rating": "PG13",
+            "Tomato Score": 76
+        },
+        "Mary And The Witch'S Flower": {
+            "popcornscore": 77,
+            "rating": "PG",
+            "tomatoscore": 84
+        },
+        "Maze Runner: The Death Cure": {
+            "popcornscore": 74,
+            "rating": "PG13",
+            "tomatoscore": 43
+        },
+        "Molly'S Game": {
+            "popcornscore": 86,
+            "rating": "R",
+            "tomatoscore": 81
+        },
+        "Paddington 2": {
+            "Genre": "Animation",
+            "Gross": "$660,000",
+            "IMDB Metascore": "88",
+            "Popcorn Score": 90,
+            "Rating": "PG",
+            "Tomato Score": 100
+        },
+        "Padmaavat": {
+            "popcornscore": 63,
+            "rating": "NR",
+            "tomatoscore": 74
+        },
+        "Phantom Thread": {
+            "popcornscore": 69,
+            "rating": "R",
+            "tomatoscore": 91
+        },
+        "Pitch Perfect 3": {
+            "popcornscore": 52,
+            "rating": "PG13",
+            "tomatoscore": 31
+        },
+        "Proud Mary": {
+            "popcornscore": 56,
+            "rating": "R",
+            "tomatoscore": 26
+        },
+        "Star Wars: Episode Viii - The Last Jedi": {
+            "Genre": "Action",
+            "Gross": "unknown",
+            "IMDB Metascore": "85",
+            "Popcorn Score": "unknown",
+            "Rating": "unrated",
+            "Tomato Score": "unkown"
+        },
+        "Star Wars: The Last Jedi": {
+            "popcornscore": 48,
+            "rating": "PG13",
+            "tomatoscore": 91
+        },
+        "The Cage Fighter": {
+            "Genre": "Documentary",
+            "Gross": "unknown",
+            "IMDB Metascore": "74",
+            "Popcorn Score": "unknown",
+            "Rating": "unrated",
+            "Tomato Score": "unkown"
+        },
+        "The Commuter": {
+            "Genre": "Action",
+            "Gross": "$530,000",
+            "IMDB Metascore": "56",
+            "Popcorn Score": 49,
+            "Rating": "PG13",
+            "Tomato Score": 58
+        },
+        "The Final Year": {
+            "popcornscore": 48,
+            "rating": "NR",
+            "tomatoscore": 84
+        },
+        "The Greatest Showman": {
+            "Genre": "Biography",
+            "Gross": "$2,275,000",
+            "IMDB Metascore": "48",
+            "Popcorn Score": 90,
+            "Rating": "PG",
+            "Tomato Score": 55
+        },
+        "The Insult (L'Insulte)": {
+            "popcornscore": 90,
+            "rating": "R",
+            "tomatoscore": 88
+        },
+        "The Post": {
+            "Genre": "Biography",
+            "Gross": "$1,570,000",
+            "IMDB Metascore": "83",
+            "Popcorn Score": 73,
+            "Rating": "PG13",
+            "Tomato Score": 88
+        },
+        "The Shape Of Water": {
+            "popcornscore": 79,
+            "rating": "R",
+            "tomatoscore": 92
+        },
+        "Una Mujer Fant\u00e1stica": {
+            "Genre": "Drama",
+            "Gross": "unknown",
+            "IMDB Metascore": "89",
+            "Popcorn Score": "unknown",
+            "Rating": "unrated",
+            "Tomato Score": "unkown"
+        },
+        "Winchester": {
+            "Genre": "Biography",
+            "Gross": "$3,606,000",
+            "IMDB Metascore": "31",
+            "Popcorn Score": "unknown",
+            "Rating": "unrated",
+            "Tomato Score": "unkown"
+        }
+    }
+]
