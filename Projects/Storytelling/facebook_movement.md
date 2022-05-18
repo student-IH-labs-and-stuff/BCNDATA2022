@@ -24,7 +24,10 @@ It would be silly for us to complete a data analysis course without giving some 
 - Collaborate and support each-other, sharing your ideas, brainstorm what is the tale you want to tell and make the most of each of your respective skills to produce a **data story** centred around changes observed in human movement under covid-19 restrictions in specific country(/ies) or Region(s). Ideally the story should have a time element (ie changes in movement over a timeline) and some comparisons - compare cities or countries' experience on respective dates, local and national.
 -  Your presentation must take your audience on a journey through the arc of your data story - hint: think about who your story would be targeted at, in order to pitch the visuals, language, descriptions, and technical details appropriately. This [link](https://blog.reedsy.com/narrative-arc) is a good one to get you thinking as a storyteller about narrative structures, the story arc and the various elements of a plot eg inciting incident. 
 
+
+<p align="center">
   ![alt text](https://github.com/student-IH-labs-and-stuff/BER-DAFT-MAR21/blob/main/Project/Storytelling/arc.jpeg "typical story arc")
+  </p>
 
 -  Your data source(s) can be processed /cleaned, explored in Python or Tableau, but the end output we want to see is simply the Tableau dashboard or story. A very small presentation is required (dont worry about putting together beautiful slides, you can just use the Tableau materials as your visuals) in class to talk through the story - tip: pick the best storyteller in your group to do this, or pair up to do a 'double act'
 -  All students will submit a url to their github repo containing a description of the project and url to their team's tableau workbook on tableau public, OR simply the link to tableau public, on the student portal, before the deadline
