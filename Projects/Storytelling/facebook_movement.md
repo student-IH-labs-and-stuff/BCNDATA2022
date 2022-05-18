@@ -29,8 +29,6 @@ It would be silly for us to complete a data analysis course without giving some 
     <img width="460" height="300" src="https://github.com/student-IH-labs-and-stuff/BER-DAFT-MAR21/blob/main/Project/Storytelling/arc.jpeg">
 </p>
   
-  
-![alt text](https://github.com/student-IH-labs-and-stuff/BER-DAFT-MAR21/blob/main/Project/Storytelling/arc.jpeg "typical story arc")
 
 -  Your data source(s) can be processed /cleaned, explored in Python or Tableau, but the end output we want to see is simply the Tableau dashboard or story. A very small presentation is required (dont worry about putting together beautiful slides, you can just use the Tableau materials as your visuals) in class to talk through the story - tip: pick the best storyteller in your group to do this, or pair up to do a 'double act'
 -  All students will submit a url to their github repo containing a description of the project and url to their team's tableau workbook on tableau public, OR simply the link to tableau public, on the student portal, before the deadline
