@@ -49,7 +49,7 @@ For example - this one from california :
 
 ![alt text](https://github.com/student-IH-labs-and-stuff/BER-DAFT-MAR21/blob/main/Project/Storytelling/MovementRange_ca.jpeg "california example")
 
-and [this one from Tbilisi](https://covidingeorgia.com/2020/10/21/georgia-struggling-to-respond-to-latest-surge-of-covid/)
+and [this one from Tbilisi](https://oc-media.org/features/analysis-georgia-struggles-to-respond-to-latest-covid-19-surge/)
 
 POLYGON DATA :  If you want to integrate spatial file polygons with your data (particularly if the data covers regional boundaries not covered by the existing geographical hierachy of tableau we would suggest checking the polygon_source of your selected data - most of the time it is GADM - and then downloading the files you need (at the level you need) from this [GADM site](https://gadm.org/data.html)
 
