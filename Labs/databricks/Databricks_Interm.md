@@ -45,13 +45,13 @@ as discussed in class, moving machine learning models from development settings,
 Note:  in the community edition we don't have a full production job capacity, multiple users or git integration :( 
 - however we can set up a production flow using folders in our workspace and create the experience of promoting notebooks between these spaces  
 
-1) Create three folders in your shared workspace calling them 'develop' 'test' 'production'
-2) Choose any of your notebooks (or create a new one from scratch) , attach it to an appropriate cluster.
+1) Create three folders in your shared workspace calling them '<yourinitials>develop' '<yourinitials>test' '<yourinitials>production'
+2) Choose any of your notebooks (or create a new one/ upload one from your local machine) and attach it to an appropriate cluster.
 3) Move the notebook to the develop folder and run it to ensure you are happy this one is ready to be promoted.
 4) OPTIONAL In a BAU (business as usual) environment we would have a separate production and test cluster running! If you want, you can create those clusters one by one, but remember we can only have one running at any time in the Community Edition. 
 5) Clone the selected notebook to test - and annotate a MARKDOWN cell at the top of the notebook to confirm the test or UAT criteria you would propose for this notebook. Consider total run time, cluster attached, max cell run time, experiment accuracy etc. 
 6)  Review the tests you have devised with a colleague in the classroom - if the tests are passed, then you are ready to promote. In real life this could involve a handover to another team or completion of a [deployment release procedure](https://www.lucidchart.com/blog/release-management-process)
-7)  Finally, clone the notebook to the production or live folder. Send me sian.davies@ironhack.com an email confirming your notebook is live with screenshots of your folder, to complete the lab 
+7)  Finally, clone the notebook to the production folder. Send me sian.davies@ironhack.com an email confirming your notebook is live with a screenshot of your folders and the 'live' notebook, to complete the lab: 
 
 <img width="270" alt="image" src="https://user-images.githubusercontent.com/71644535/155672848-f1016cb8-f814-4d94-a2f1-f796e2a1d570.png">
 
