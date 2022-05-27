@@ -37,7 +37,6 @@ The initial project kick off meeting is often the best moment of any workspace p
 + b) Clarify the project timetable day by day
 + c) Orientation of the github folder 
 + d) Expectations from the teaching team 
-+ e) General questions (not topic related) 
 
 ---- break ---- 
 
@@ -46,7 +45,7 @@ The initial project kick off meeting is often the best moment of any workspace p
 + a) Example projects + what does great look like ?  
 + d) Project Brief - bacardi - Break out discussion 
 + e) Feedback on the bacardi project brief 
-+ g) Invitation to brainstorm with your peers or explore the resources
++ g) Invitation to brainstorm with your peers|explore the resources
 
 ###### Fin....
 
