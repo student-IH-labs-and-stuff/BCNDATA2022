@@ -6,3 +6,6 @@ https://public.tableau.com/app/profile/sianedavies/viz/31Jan_16436309332290/exam
 Fri 4 Feb 
 https://docs.google.com/presentation/d/1A2PBOm4xfSJj5npHWDuPJMzgF0MRlZ4mo-9tLfU5a10/edit?usp=sharing
 https://public.tableau.com/app/profile/sianedavies/viz/customerbehaviour-bank/momactive?publish=yes
+
+
+https://github.com/ironhack-edu/data_case_study_2/tree/master (case study data) 
